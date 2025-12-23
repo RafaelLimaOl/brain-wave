@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import "tailwindcss";
+
+@theme {
+    /* Colors */
+    --color-1: #AC6AFF;
+    --color-2: #FFC876;
+    --color-3: #FF776F;
+    --color-4: #7ADB78;
+    --color-5: #858DFF;
+    --color-6: #FF98E2;
+
+    --color-stroke-1: #26242C;
+
+    --color-n-1: #FFFFFF;
+    --color-n-2: #CAC6DD;
+    --color-n-3: #ADA8C3;
+    --color-n-4: #757185;
+    --color-n-5: #3F3A52;
+    --color-n-6: #252133;
+    --color-n-7: #15131D;
+    --color-n-8: #0E0C15;
+    --color-n-9: #474060;
+    --color-n-10: #1B1B2E;
+    --color-n-11: #43433C;
+    --color-n-12: #2E2A41;
+    --color-n-13: #6C7275;
+
+    /* Font families */
+    --font-sora: "Sora", sans-serif;
+    --font-code: "Fira Code", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+
+    /* Spacing */
+    --spacing-0\.25: 0.0625rem;
+    --spacing-7\.5: 1.875rem;
+    --spacing-15: 3.75rem;
+
+    /* Opacity */
+    --opacity-15: 0.15;
+
+    /* Transitions */
+    --duration-default: 200ms;
+    --easing-default: linear;
+
+    /* Z-index */
+    --z-1: 1;
+    --z-2: 2;
+    --z-3: 3;
+    --z-4: 4;
+    --z-5: 5;
+
+    /* Border */
+    --border-default: 0.0625rem;
+
+    /* Backgrounds */
+    --bg-radial: radial-gradient(var(--tw-gradient-stops));
+    --bg-conic: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876);
+}
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth
+}
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg]
+}
+
+.rotate-90 {
+  @apply rotate-[90deg]
+}
+
+.rotate-135 {
+  @apply rotate-[135deg]
+}
+
+.rotate-180 {
+  @apply rotate-[180deg]
+}
+
+.rotate-225 {
+  @apply rotate-[225deg]
+}
+
+.rotate-270 {
+  @apply rotate-[270deg]
+}
+
+.rotate-315 {
+  @apply rotate-[315deg]
+}
+
+.rotate-360 {
+  @apply rotate-[360deg]
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg]
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg]
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg]
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg]
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg]
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg]
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg]
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg]
+}
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */

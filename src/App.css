@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colors */
+    --color-main-1: #AC6AFF;
+    --color-main-2: #FFC876;
+    --color-main-3: #FF776F;
+    --color-main-4: #7ADB78;
+    --color-main-5: #858DFF;
+    --color-main-6: #FF98E2;
+
+    --color-stroke-1: #26242C;
+
+    --color-n-1: #FFFFFF;
+    --color-n-2: #CAC6DD;
+    --color-n-3: #ADA8C3;
+    --color-n-4: #757185;
+    --color-n-5: #3F3A52;
+    --color-n-6: #252133;
+    --color-n-7: #15131D;
+    --color-n-8: #0E0C15;
+    --color-n-9: #474060;
+    --color-n-10: #1B1B2E;
+    --color-n-11: #43433C;
+    --color-n-12: #2E2A41;
+    --color-n-13: #6C7275;
+
+    /* Font families */
+    --font-sora: "Sora", sans-serif;
+    --font-code: "Fira Code", monospace;
+    --font-grotesk: "Space Grotesk", sans-serif;
+
+    /* Spacing */
+    --spacing-0\.25: 0.0625rem;
+    --spacing-7\.5: 1.875rem;
+    --spacing-15: 3.75rem;
+
+    /* Opacity */
+    --opacity-15: 0.15;
+
+    /* Transitions */
+    --duration-default: 200ms;
+    --easing-default: linear;
+
+    /* Z-index */
+    --z-1: 1;
+    --z-2: 2;
+    --z-3: 3;
+    --z-4: 4;
+    --z-5: 5;
+
+    /* Border */
+    --border-default: 0.0625rem;
+
+    /* Backgrounds */
+    --color-radial-bg: radial-gradient(var(--tw-gradient-stops));
+    --color-conic-bg: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876);
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
